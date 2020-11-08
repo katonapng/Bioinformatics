@@ -1,0 +1,28 @@
+>lcl|NM 017817.3 cds NP 060287.1 1 gene=RAB20 db xref=CCDS:CCDS9512.1 protein=ras-related protein Rab-20 protein id=NP 060287.1 location=204..908 gbkey=CDS
+GAGAAGGAAGAGTGCAGTCCCAATATGGAC
+>lcl|NM 001109535.1 cds NP 001103005.1 1 gene=Rab20 db xref=GeneID:689377 RGD:1593487 protein=ras-related protein Rab-20 protein id=NP 001103005.1 location=183..881 gbkey=CDS
+GAGAAGGATCAGGCCTCTGGGAAGACAGGC
+>lcl|X80332.1 cds CAA56582.1 1 gene=rab20 db xref=GOA:P35295 InterPro:IPR001806 InterPro:IPR005225 InterPro:IPR013753 InterPro:IPR020851 MGI:MGI:102789 UniProtKB/Swiss-Prot:P35295 protein id=CAA56582.1 location=1.. 699 gbkey=CDS
+GAGAAGGAAGGACCGGCCTCTGGCAAGGTG
+>lcl|XM 003832084.2 cds XP 003832132.1 1 gene=RAB20 db xref=GeneID:100977562 protein=ras-related protein Rab-20 protein id=XP 003832132.1 location=237..941 gbkey=CDS
+GAGAAGGAAGAGTGCAGTCCCAATATGGAC
+>lcl|XM 024348343.1 cds XP 024204111.1 1 gene=RAB20 db xref=GeneID:112205216 protein=ras-related protein Rab-20 protein id=XP 024204111.1 location=271..975 gbkey=CDS
+GAGAAGGAAGAGTGCAGTCCCAATATGGAC
+>lcl|XM 001082373.4 cds XP 001082373.1 1 gene=RAB20 db xref=GeneID:694578 protein=ras-related protein Rab-20 protein id=XP 001082373.1 location=539..1243 gbkey=CDS
+GAGAAGGAAAAGTGCAGTCCAGATACGGAT
+>lcl|XM 542668.6 cds XP 542668.2 1 gene=RAB20 db xref=GeneID:485549 protein=ras-related protein Rab-20 protein id=XP 542668.2 location=255..962 gbkey=CDS
+GAGAAGGAAGGGCTTGGCCCCGGGGTGGCT
+>lcl|XM 003980528.5 cds XP 003980577.1 1 gene=RAB20 db xref=GeneID:101089416 protein=ras-related protein Rab-20 protein id=XP 003980577.1 location=329..1033 gbkey=CDS
+CGGAAGGACGGGCGGGGCCCTGGGGTGGCT
+>lcl|NM 001193089.1 cds NP 001180018.1 1 gene=RAB20 db xref=BGD:BT12747 GeneID:615760 VGNC:VGNC:33627 protein=ras-related protein Rab-20 protein id=NP 001180018.1 location=219..914 gbkey=CDS
+CAGGGAGGAGGACGTGATCCCGGGCAGGCG
+
+
+
+
+
+
+
+
+
+

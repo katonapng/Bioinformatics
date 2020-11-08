@@ -1,0 +1,8 @@
+Pan troglodytes
+Pan paniscus
+Macaca mulatta
+Mus musculus
+Rattus norvegicus
+Canis familiaris
+Felis catus
+Bos taurus

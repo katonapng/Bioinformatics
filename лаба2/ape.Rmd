@@ -1,0 +1,31 @@
+## Distance matrix and neighbor-joining for proteins
+```{r}
+tree1.proteins <- ape::read.tree("protein_aligned RAxML Tree.newick")
+tree2.proteins <- ape::read.tree("variable1_proteins RAxML Tree.newick")
+tree3.proteins <- ape::read.tree("variable2_proteins RAxML Tree.newick")
+tree4.proteins <- ape::read.tree("variable3_proteins RAxML Tree.newick")
+
+tree.proteins <- c(tree1.proteins,tree2.proteins,tree3.proteins,tree4.proteins)
+
+distance.proteins <- dist.topo(tree.proteins)
+nj.proteins <- nj(distance.proteins)
+
+distance.proteins
+nj.proteins
+```
+
+## Distance matrix and neighbor-joining for transcripts
+```{r}
+tree1.transcripts <- ape::read.tree("transcripts_aligned RAxML Tree.newick")
+tree2.transcripts <- ape::read.tree("variable1_transcripts RAxML Tree.newick")
+tree3.transcripts <- ape::read.tree("variable2_transcripts RAxML Tree.newick")
+tree4.transcripts <- ape::read.tree("variable3_transcripts RAxML Tree.newick")
+
+tree.transcripts <- c(tree1.transcripts,tree2.transcripts,tree3.transcripts,tree4.transcripts)
+
+distance.transcripts <- dist.topo(tree.transcripts)
+nj.transcripts <- nj(distance.transcripts)
+
+distance.transcripts
+nj.transcripts
+```

@@ -374,55 +374,40 @@ summary {
 </div>
 
 
-<div id="distance-matrix-and-neighbor-joining-for-proteins" class="section level2">
-<h2>Distance matrix and neighbor-joining for proteins</h2>
+<div id="distance-matrix-and-neighbor-joining" class="section level2">
+<h2>Distance matrix and neighbor-joining</h2>
 <pre class="r"><code>tree1.proteins &lt;- ape::read.tree(&quot;protein_aligned RAxML Tree.newick&quot;)
 tree2.proteins &lt;- ape::read.tree(&quot;variable1_proteins RAxML Tree.newick&quot;)
 tree3.proteins &lt;- ape::read.tree(&quot;variable2_proteins RAxML Tree.newick&quot;)
 tree4.proteins &lt;- ape::read.tree(&quot;variable3_proteins RAxML Tree.newick&quot;)
 
-tree.proteins &lt;- c(tree1.proteins,tree2.proteins,tree3.proteins,tree4.proteins)
-
-distance.proteins &lt;- dist.topo(tree.proteins)
-nj.proteins &lt;- nj(distance.proteins)
-
-distance.proteins</code></pre>
-<pre><code>##       tree1 tree2 tree3
-## tree2    10            
-## tree3    12    14      
-## tree4    10    12    12</code></pre>
-<pre class="r"><code>nj.proteins</code></pre>
-<pre><code>## 
-## Phylogenetic tree with 4 tips and 2 internal nodes.
-## 
-## Tip labels:
-##   tree1, tree2, tree3, tree4
-## 
-## Unrooted; includes branch lengths.</code></pre>
-</div>
-<div id="distance-matrix-and-neighbor-joining-for-transcripts" class="section level2">
-<h2>Distance matrix and neighbor-joining for transcripts</h2>
-<pre class="r"><code>tree1.transcripts &lt;- ape::read.tree(&quot;transcripts_aligned RAxML Tree.newick&quot;)
+tree1.transcripts &lt;- ape::read.tree(&quot;transcripts_aligned RAxML Tree.newick&quot;)
 tree2.transcripts &lt;- ape::read.tree(&quot;variable1_transcripts RAxML Tree.newick&quot;)
 tree3.transcripts &lt;- ape::read.tree(&quot;variable2_transcripts RAxML Tree.newick&quot;)
 tree4.transcripts &lt;- ape::read.tree(&quot;variable3_transcripts RAxML Tree.newick&quot;)
 
-tree.transcripts &lt;- c(tree1.transcripts,tree2.transcripts,tree3.transcripts,tree4.transcripts)
+tree &lt;- c(tree1.transcripts,tree2.transcripts,tree3.transcripts,tree4.transcripts, tree1.proteins,tree2.proteins,tree3.proteins,tree4.proteins)
 
-distance.transcripts &lt;- dist.topo(tree.transcripts)
-nj.transcripts &lt;- nj(distance.transcripts)
 
-distance.transcripts</code></pre>
-<pre><code>##       tree1 tree2 tree3
-## tree2     6            
-## tree3    10    12      
-## tree4    12    14    12</code></pre>
-<pre class="r"><code>nj.transcripts</code></pre>
+distance &lt;- dist.topo(tree, method = &quot;score&quot;)
+neighbors &lt;- nj(distance)
+neighbors$tip.label &lt;- c(&quot;protein_aligned&quot;,&quot;variable1_proteins&quot;,&quot;variable2_proteins&quot;,&quot;variable3_proteins&quot;, &quot;transcripts_aligned&quot;,&quot;variable1_transcripts&quot;,&quot;variable2_transcripts&quot;,&quot;variable3_transcripts&quot;)
+
+distance</code></pre>
+<pre><code>##            tree1      tree2      tree3      tree4      tree5      tree6      tree7
+## tree2 0.12380094                                                                  
+## tree3 0.23290970 0.15356439                                                       
+## tree4 0.21395018 0.12292114 0.12679027                                            
+## tree5 0.23528081 0.20174258 0.22704534 0.20755094                                 
+## tree6 0.20262365 0.10349853 0.12085534 0.07831783 0.19578065                      
+## tree7 0.20430721 0.10524502 0.12172360 0.07965020 0.17590913 0.04583389           
+## tree8 0.16901827 0.09610151 0.15408044 0.12356525 0.21330436 0.10499979 0.10599699</code></pre>
+<pre class="r"><code>neighbors</code></pre>
 <pre><code>## 
-## Phylogenetic tree with 4 tips and 2 internal nodes.
+## Phylogenetic tree with 8 tips and 6 internal nodes.
 ## 
 ## Tip labels:
-##   tree1, tree2, tree3, tree4
+##   protein_aligned, variable1_proteins, variable2_proteins, variable3_proteins, transcripts_aligned, variable1_transcripts, ...
 ## 
 ## Unrooted; includes branch lengths.</code></pre>
 </div>

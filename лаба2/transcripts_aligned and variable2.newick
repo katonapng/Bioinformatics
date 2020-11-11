@@ -30,40 +30,40 @@
       <node about="#node820" id="node820">
         <meta content=" x=-2.0 y=1.75 ll=7;" datatype="xsd:string" id="meta821" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node822" id="node822" label="lcl|XM024348343.1">
+      <node about="#node822" id="node822" label="Pan_troglodytes">
         <meta content=" x=0.0 y=1.0 ll=7;" datatype="xsd:string" id="meta823" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <node about="#node824" id="node824">
         <meta content=" x=-1.0 y=2.5 ll=7;" datatype="xsd:string" id="meta825" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node826" id="node826" label="lcl|NM017817.3">
+      <node about="#node826" id="node826" label="Homo_sapiens">
         <meta content=" x=0.0 y=2.0 ll=7;" datatype="xsd:string" id="meta827" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node828" id="node828" label="lcl|XM003832084.2">
+      <node about="#node828" id="node828" label="Pan_paniscus">
         <meta content=" x=0.0 y=3.0 ll=7;" datatype="xsd:string" id="meta829" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node838" id="node838" label="lcl|XM001082373.4">
+      <node about="#node838" id="node838" label="Macaca_mulatta">
         <meta content=" x=0.0 y=4.0 ll=7;" datatype="xsd:string" id="meta839" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <node about="#node844" id="node844">
         <meta content=" x=-1.0 y=5.5 ll=7;" datatype="xsd:string" id="meta845" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node846" id="node846" label="lcl|X80332.1">
+      <node about="#node846" id="node846" label="Mus_musculus">
         <meta content=" x=0.0 y=5.0 ll=7;" datatype="xsd:string" id="meta847" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node848" id="node848" label="lcl|NM001109535.1">
+      <node about="#node848" id="node848" label="Rattus_norvegicus">
         <meta content=" x=0.0 y=6.0 ll=7;" datatype="xsd:string" id="meta849" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node858" id="node858" label="lcl|NM001193089.1">
+      <node about="#node858" id="node858" label="Bos_taurus">
         <meta content=" x=0.0 y=7.0 ll=7;" datatype="xsd:string" id="meta859" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node864" id="node864" label="lcl|XM542668.6">
+      <node about="#node864" id="node864" label="Canis_lupus">
         <meta content=" x=0.0 y=8.0 ll=7;" datatype="xsd:string" id="meta865" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node870" id="node870" label="lcl|XM003980528.5">
+      <node about="#node870" id="node870" label="Felis_catus">
         <meta content=" x=0.0 y=9.0 ll=7;" datatype="xsd:string" id="meta871" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node872" id="node872" label="lcl|MG282841.1">
+      <node about="#node872" id="node872" label="Amphiprion_chrysopterus">
         <meta content=" x=0.0 y=10.0 ll=7;" datatype="xsd:string" id="meta873" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <edge about="#edge830" id="edge830" length="0.0014654610096157881" source="node824" target="node826">
@@ -132,22 +132,22 @@
       <node about="#node894" id="node894">
         <meta content=" x=-6.0 y=2.6875;" datatype="xsd:string" id="meta895" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node896" id="node896" label="lcl|XM024348343.1">
+      <node about="#node896" id="node896" label="Pan_troglodytes">
         <meta content=" x=0.0 y=1.0 ll=3;" datatype="xsd:string" id="meta897" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node898" id="node898" label="lcl|NM017817.3">
+      <node about="#node898" id="node898" label="Homo_sapiens">
         <meta content=" x=0.0 y=2.0 ll=3;" datatype="xsd:string" id="meta899" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <node about="#node900" id="node900">
         <meta content=" x=-5.0 y=4.375 ll=3;" datatype="xsd:string" id="meta901" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node902" id="node902" label="lcl|XM003832084.2">
+      <node about="#node902" id="node902" label="Pan_paniscus">
         <meta content=" x=0.0 y=3.0 ll=3;" datatype="xsd:string" id="meta903" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <node about="#node904" id="node904">
         <meta content=" x=-4.0 y=5.75 ll=3;" datatype="xsd:string" id="meta905" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node906" id="node906" label="lcl|XM001082373.4">
+      <node about="#node906" id="node906" label="Macaca_mulatta">
         <meta content=" x=0.0 y=4.0 ll=3;" datatype="xsd:string" id="meta907" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <node about="#node908" id="node908">
@@ -156,16 +156,16 @@
       <node about="#node910" id="node910">
         <meta content=" x=-2.0 y=5.75 ll=3;" datatype="xsd:string" id="meta911" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node912" id="node912" label="lcl|X80332.1">
+      <node about="#node912" id="node912" label="Mus_musculus">
         <meta content=" x=0.0 y=5.0 ll=3;" datatype="xsd:string" id="meta913" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <node about="#node914" id="node914">
         <meta content=" x=-1.0 y=6.5 ll=3;" datatype="xsd:string" id="meta915" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node916" id="node916" label="lcl|NM001109535.1">
+      <node about="#node916" id="node916" label="Rattus_norvegicus">
         <meta content=" x=0.0 y=6.0 ll=3;" datatype="xsd:string" id="meta917" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node918" id="node918" label="lcl|XM003980528.5">
+      <node about="#node918" id="node918" label="Felis_catus">
         <meta content=" x=0.0 y=7.0 ll=3;" datatype="xsd:string" id="meta919" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <node about="#node928" id="node928">
@@ -174,13 +174,13 @@
       <node about="#node930" id="node930">
         <meta content=" x=-1.0 y=8.5 ll=3;" datatype="xsd:string" id="meta931" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node932" id="node932" label="lcl|NM001193089.1">
+      <node about="#node932" id="node932" label="Bos_taurus">
         <meta content=" x=0.0 y=8.0 ll=3;" datatype="xsd:string" id="meta933" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node934" id="node934" label="lcl|MG282841.1">
+      <node about="#node934" id="node934" label="Amphiprion_chrysopterus">
         <meta content=" x=0.0 y=9.0 ll=3;" datatype="xsd:string" id="meta935" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
-      <node about="#node940" id="node940" label="lcl|XM542668.6">
+      <node about="#node940" id="node940" label="Canis_lupus">
         <meta content=" x=0.0 y=10.0 ll=3;" datatype="xsd:string" id="meta941" property="format" xsi:type="nex:LiteralMeta"/>
       </node>
       <edge about="#edge920" id="edge920" length="0.03449996639621594" source="node914" target="node916">

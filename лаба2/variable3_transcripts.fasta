@@ -1,20 +1,20 @@
->lcl|NM017817.3 cds NP 060287.1 1 gene=RAB20 db xref=CCDS:CCDS9512.1 protein=ras-related protein Rab-20 protein id=NP 060287.1 location=204..908 gbkey=CDS
+>Homo_sapiens lcl|NM017817.3 cds NP 060287.1 1 gene=RAB20 db xref=CCDS:CCDS9512.1 protein=ras-related protein Rab-20 protein id=NP 060287.1 location=204..908 gbkey=CDS
 CGCAGGGCGGGAGCAGTTCCACGGCCTGGG
->lcl|NM001109535.1 cds NP 001103005.1 1 gene=Rab20 db xref=GeneID:689377 RGD:1593487 protein=ras-related protein Rab-20 protein id=NP 001103005.1 location=183..881 gbkey=CDS
+>Rattus_norvegicus lcl|NM001109535.1 cds NP 001103005.1 1 gene=Rab20 db xref=GeneID:689377 RGD:1593487 protein=ras-related protein Rab-20 protein id=NP 001103005.1 location=183..881 gbkey=CDS
 CGCAGGGCGGGAGCAGTTCCACGGTCTGGG
->lcl|X80332.1 cds CAA56582.1 1 gene=rab20 db xref=GOA:P35295 InterPro:IPR001806 InterPro:IPR005225 InterPro:IPR013753 InterPro:IPR020851 MGI:MGI:102789 UniProtKB/Swiss-Prot:P35295 protein id=CAA56582.1 location=1.. 699 gbkey=CDS
+>Mus_musculus lcl|X80332.1 cds CAA56582.1 1 gene=rab20 db xref=GOA:P35295 InterPro:IPR001806 InterPro:IPR005225 InterPro:IPR013753 InterPro:IPR020851 MGI:MGI:102789 UniProtKB/Swiss-Prot:P35295 protein id=CAA56582.1 location=1.. 699 gbkey=CDS
 CGCAGGGCGGGAGCAGTTTCATGGTCTGGG
->lcl|XM003832084.2 cds XP 003832132.1 1 gene=RAB20 db xref=GeneID:100977562 protein=ras-related protein Rab-20 protein id=XP 003832132.1 location=237..941 gbkey=CDS
+>Pan_paniscus lcl|XM003832084.2 cds XP 003832132.1 1 gene=RAB20 db xref=GeneID:100977562 protein=ras-related protein Rab-20 protein id=XP 003832132.1 location=237..941 gbkey=CDS
 CGCAGGGCGGGAGCAGTTCCACGGCCTGGG
->lcl|XM024348343.1 cds XP 024204111.1 1 gene=RAB20 db xref=GeneID:112205216 protein=ras-related protein Rab-20 protein id=XP 024204111.1 location=271..975 gbkey=CDS
+>Pan_troglodytes lcl|XM024348343.1 cds XP 024204111.1 1 gene=RAB20 db xref=GeneID:112205216 protein=ras-related protein Rab-20 protein id=XP 024204111.1 location=271..975 gbkey=CDS
 CGCAGGGCGGGAGCAGTTCCACGGCCTGGG
->lcl|XM001082373.4 cds XP 001082373.1 1 gene=RAB20 db xref=GeneID:694578 protein=ras-related protein Rab-20 protein id=XP 001082373.1 location=539..1243 gbkey=CDS
+>Macaca_mulatta lcl|XM001082373.4 cds XP 001082373.1 1 gene=RAB20 db xref=GeneID:694578 protein=ras-related protein Rab-20 protein id=XP 001082373.1 location=539..1243 gbkey=CDS
 CGCAGGGCGGGAGCAGTTCCATGGTCTGGG
->lcl|XM542668.6 cds XP 542668.2 1 gene=RAB20 db xref=GeneID:485549 protein=ras-related protein Rab-20 protein id=XP 542668.2 location=255..962 gbkey=CDS
+>Canis_lupus lcl|XM542668.6 cds XP 542668.2 1 gene=RAB20 db xref=GeneID:485549 protein=ras-related protein Rab-20 protein id=XP 542668.2 location=255..962 gbkey=CDS
 GGCAGGGCGGGAGCAGTTCCACGGCCTGGG
->lcl|XM003980528.5 cds XP 003980577.1 1 gene=RAB20 db xref=GeneID:101089416 protein=ras-related protein Rab-20 protein id=XP 003980577.1 location=329..1033 gbkey=CDS
+>Felis_catus lcl|XM003980528.5 cds XP 003980577.1 1 gene=RAB20 db xref=GeneID:101089416 protein=ras-related protein Rab-20 protein id=XP 003980577.1 location=329..1033 gbkey=CDS
 GGCAGGGCGGGAGCAGTTCCACGGCCTGGG
->lcl|NM001193089.1 cds NP 001180018.1 1 gene=RAB20 db xref=BGD:BT12747 GeneID:615760 VGNC:VGNC:33627 protein=ras-related protein Rab-20 protein id=NP 001180018.1 location=219..914 gbkey=CDS
+>Bos_taurus lcl|NM001193089.1 cds NP 001180018.1 1 gene=RAB20 db xref=BGD:BT12747 GeneID:615760 VGNC:VGNC:33627 protein=ras-related protein Rab-20 protein id=NP 001180018.1 location=219..914 gbkey=CDS
 TGCAGGGCGGGAGCAGTTCCACGGCCTGGG
->lcl|MG282841.1 cds AXU38560.1 1 gene=Cytb protein=cytochrome b frame=2 protein id=AXU38560.1 location= 1.. 332 gbkey=CDS
+>Amphiprion_chrysopterus lcl|MG282841.1 cds AXU38560.1 1 gene=Cytb protein=cytochrome b frame=2 protein id=AXU38560.1 location= 1.. 332 gbkey=CDS
 TCTAGTACA---------------------
